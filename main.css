@@ -1,0 +1,47 @@
+body {
+background-color: antiquewhite;
+text-align: center;
+}
+
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+   font-size: 30px;
+}
+
+.green {
+    font-style:italic;
+    color: rgb(1, 151, 13);
+}
+
+.brown {
+    font-style: italic;
+    color: brown;
+}
+
+.orange {
+    font-style: italic;
+    color: orange;
+}
+
+.border {
+    font-size: 20px;
+    border:10px solid rgba(221, 143, 114, 0.726);
+}
+
+.Name {
+    font-size: 20px;
+}
+
+li {
+    margin-left: 41%;
+    width: 160px;
+}
+
+hr {
+    background-color: orangered;
+    height: 5px;
+}
