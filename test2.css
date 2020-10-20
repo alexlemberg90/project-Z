@@ -1,0 +1,49 @@
+.black {
+    width: 804px;
+    height: 504px;
+    background: #000;
+}
+.orange {
+    width: 800px;
+    height: 50px;
+    background: rgb(255, 115, 0);
+    float: left;
+    clear: both;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+.orange2 {
+    width: 800px;
+    height: 50px;
+    background: rgb(255, 115, 0);
+    float: left;
+    clear: both;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+.red {
+    width: 200px;
+    height: 400px;
+    background: red;
+    float: left;
+    clear: left;
+    margin-left: 2px;
+}
+.green {
+    width: 200px;
+    height: 400px;
+    background:green;
+    float: left;
+}
+.blue {
+    width: 200px;
+    height: 400px;
+    background:blue;
+    float: left;
+}
+.black2 {
+    width: 200px;
+    height: 400px;
+    background:black;
+    float: left;
+}
