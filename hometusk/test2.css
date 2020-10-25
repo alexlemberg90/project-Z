@@ -1,22 +1,20 @@
-.black {
+.border {
+    border: 2px solid black;
     width: 800px;
     height: 500px;
-    background: #000;
-    float: left;
-    padding: 2px;
+}
+.box {
+    display: flex;
+
+}
+.mid {
+    width: 25%;
+    height: 400px;
 }
 .orange, .orange2 {
     width: 800px;
     height: 50px;
-    background: rgb(255, 115, 0); 
-    clear: both;
-}
-
-.mid {
-    width: 25%;
-    height: 400px;
-    background: red;
-    float: left;
+    background: rgb(255, 115, 0);  
 }
 .red {
     background: red;
@@ -29,4 +27,7 @@
 }
 .purple {
     background: purple;
+}
+.black {
+    background: black;
 }
