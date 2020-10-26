@@ -1,18 +1,46 @@
 li{
     list-style: none;
     display: inline-block;
+    margin-right: 4px;
     
+}
+.name{
+    font-size: 300%;
+    cursor: pointer;
+    margin-bottom: -30px;
 }
 a{
     text-decoration: none;
     color: black;
 }
 .mid{
+    color: aliceblue;
     display: flex;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
+    background:#7d0000;
 }
 
 body{
     text-align: center;
+}
+.menu{
+    width: 20%;
+}
+.headname{
+    width: 50%;
+}
+.lang{
+    width: 10%;
+}
+.club{
+    width: 100px;
+    height: 40px;
+    background: #b10000;
+    border: solid 2px white;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+.white{
+    color: white;
 }
