@@ -115,9 +115,41 @@
 
 // console.log(one + five + ten);
 
+// 8- при помощи prompt() получить 4 числа. Привести их к числовому типу при помощи parseInt. Сложить их между собой записав результат в переменную result и вывести в консоль браузера
 
+// let one = prompt('one');
+// let five = prompt('five');
+// let seven = prompt('seven');
+// let ten = prompt('ten');
 
-// - При помощи оператора опредеоения типа typeof определить типы следующих переменных и вывести их в консоль let a = 100; let b = '100'; let c = true; let d = undefined;
+// console.log(parseInt(one)+parseInt(five)+parseInt(seven)+parseInt(ten))
+
+// 9- при помощи prompt()  получить 3 числа с плавающей точекой. при помощи parseFloat привести их к соответсвующему типу. Сложить их между собой записав результат в переменную result и вывести в консоль браузера
+
+// let one = prompt('1.1');
+// let five = prompt('5.5');
+// let seven = prompt('7.7');
+// let resalt = parseFloat(one)+parseFloat(five)+parseFloat(seven);
+
+// console.log(resalt);
+
+// 10- при помощи prompt()  получить 3 числа с плавающей точекой. Округлить их при помощи Math.round Сложить их между собой записав результат в переменную  и вывести в консоль браузера
+
+// let one = prompt('1.1');
+// let five = prompt('5.5');
+// let seven = prompt('7.7');
+// let round = Math.round(one)+Math.round(five)+Math.round(seven);
+
+// console.log(round);
+
+// 11- при помощи prompt()  получить 2 целых числа. Привести их к целочисленному типу. Первое число - это число которое будут возводить в степень. Второе число - это число которое является степенью. При помощи Math.pow возвести первое число в степень второго числа.
+
+// let two = +prompt('2');
+// let five = +prompt('5');
+
+// console.log(Math.pow(one, five))
+
+//12 - При помощи оператора опредеоения типа typeof определить типы следующих переменных и вывести их в консоль let a = 100; let b = '100'; let c = true; let d = undefined;
 
 // let a = 100;
 // let b = '100';
@@ -126,7 +158,7 @@
 
 // console.log(typeof a,typeof b,typeof c,typeof d);
 
-// - Поставьте соответствующий оператор в выражениях что бы получился соответсвующий результат.
+//13 - Поставьте соответствующий оператор в выражениях что бы получился соответсвующий результат.
 //  В одинаковых выражениях в задании не использовать два одинаковых оператора.
 // Каждое выражение вложить в свою переменную
     // 5 ? 6 -> true
@@ -175,3 +207,40 @@
 // console.log((111 > 11 || 45 < 111) ||  !!'0');true
 // console.log((!!111 == !!11 || 45 < 111) && (99 > 100 && 45 > 12 ));false
 
+// =====================
+// ======ДОП============
+// =====================
+
+// 1. Три різних числа вводяться через prompt().
+// За допомоги if else вивести іх в порядку зростання. (відсортувати по зростанню)
+
+// let one = prompt('one');
+// let five = prompt('five');
+// let seven = prompt('seven');
+
+// if (one < five && five < seven){
+//     console.log(one,five,seven);}
+// else if (one < seven && seven < five){
+//     console.log(one,seven,five)}
+// else if (five < one && one < seven){
+//         console.log(five,one,seven)}
+// else if (five < seven && seven < one){
+//     console.log(five,seven,one)}
+// else if (seven < one && one < five){
+//     console.log(seven,one,five)}
+// else if (seven < five && five < one){
+//     console.log(seven,five,one)}
+
+// Все параматры получаем с клавиатуры!!!!
+// Имитируем поведение пешехода на перекстке.
+// Если светофор зеленый - вывести "иди".
+// Если светофор желтый - вывести "подожди".
+// Если светофор красный - вывести "стой".
+// Если светофор в аварийном режиме вывести "делай что хочешь"!
+
+let green = 'иди';
+let yellow = 'подожди';
+let red = 'стой';
+let accident = 'делай что хочешь'
+
+    
