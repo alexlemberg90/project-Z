@@ -131,8 +131,10 @@ content.style.color = 'blue';
 rules.style.color = 'blue';
 
 let fcbp = document.getElementsByClassName('fc bp');
-console.log(fcbp);
+// console.log(fcbp);
 
 let fcrules = document.getElementsByClassName('fc_rules');
 
-fcrules.style.color = 'red';
+for (const fcall of fcrules) {
+    fcall.style.color = 'red';
+}
