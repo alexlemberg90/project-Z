@@ -465,9 +465,9 @@
 
 // - створити розмітці блок з id, class та текстом в середені. Зчитати окремо цей текст з селекторів по id , class та тегу
 
-let content = document.getElementById('content');
-let rules = document.getElementsByClassName('rules');
-let h1 = document.getElementsByTagName('h1');
+// let content = document.getElementById('content');
+// let rules = document.getElementsByClassName('rules');
+// let h1 = document.getElementsByTagName('h1');
 
 // console.log(content);
 // for (let rule of rules) {
@@ -531,12 +531,92 @@ let h1 = document.getElementsByTagName('h1');
 
 // - за допомоги document.createElement, appendChild та циклу створити таблицю на 10 рядків з трьома ячейками всередені
 
+// for (let i = 0; i < 10; i++) {
 
+// 	let table = document.createElement('table');
+// 	let tr = document.createElement('tr');
+// 	let tr1 = document.createElement('tr');
+// 	let tr2 = document.createElement('tr');
+// 	table.style.backgroundColor = 'red';
+// 	table.style.width = '300px';
+// 	document.body.appendChild(table);
+// 	table.appendChild(tr);
+// 	table.appendChild(tr1);
+// 	table.appendChild(tr2);
+// 	tr.innerHTML = 'sekuro';
+// 	tr1.innerHTML = 'diro';
+// 	tr2.innerHTML = 'rantouro';
+	
+// };
 
 // - за допомоги document.createElement, appendChild та 2х циклів створити таблицю на 10 рядків з 5 ячейками всередені
+
+// for (let i = 0; i < 10; i++) {
+
+// 	let table = document.createElement('table');
+
+// 		table.style.backgroundColor = 'red';
+// 		table.style.width = '300px';
+
+// 		document.body.appendChild(table);
+// 	for (let i = 0; i < 5; i++) {
+	
+// 		let tr = document.createElement('tr');
+
+// 		tr.innerHTML = 'sekuro';
+// 		table.appendChild(tr);
+// 	}
+	
+// };
+
 // - за допомоги document.createElement, appendChild та 2х циклів створити таблицю на n рядків з m ячейками всередені. n та m отримати з prompt
+
+// let n = prompt('table num');
+// let m = prompt('tr num');
+
+// for (let i = 0; i < n; i++) {
+
+// 	let table = document.createElement('table');
+
+// 		table.style.backgroundColor = 'red';
+// 		table.style.width = '300px';
+
+// 		document.body.appendChild(table);
+// 	for (let i = 0; i < m; i++) {
+	
+// 		let tr = document.createElement('tr');
+
+// 		tr.innerHTML = 'sekuro';
+// 		table.appendChild(tr);
+// 	};
+	
+// };
 
 // --Завантажити з мережі будь-який шаблон сайту. Підключити до нього свій скріпт-файл. У файлі прописати наступні доступи та дії
 //  - знайти всі елементі, які мають class
+
+// let clases = document.querySelectorAll('[class]');
+
+// console.log(clases);
+
+
+// for (let clas of clases) {
+// 	console.log(clas);
+// }
+
 //  - знайти всі параграфи ,та змінити текст на hello oktenweb!
+
+// let par = document.getElementsByTagName('p');
+
+// for (let p of par) {
+// 	p.innerHTML = 'hello oktenweb';
+// }
+
+
 //  - знайти всі div та змінити ім колір на червоний
+
+// let divs = document.getElementsByTagName('div');
+
+// for (let div of divs) {
+// 	div.style.color = 'red';
+// }
