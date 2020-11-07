@@ -275,3 +275,45 @@
 // --Сторити об'єкт типу "принц" за допомоги функції конструктора з полями ім'я, вік, туфелька яку він знайшов, та функцію "пошук попелюшки"
 // -- функція повинна приймати масив попелюшок, та шукає ту котра йому підходить
 // ==============================================
+
+class Popelyshka {
+    constructor (someName,someAge,someFootsize){
+        this.name = someName;
+        this.age = someAge;
+        this.footsize = someFootsize;
+    };
+};
+
+ let Popelyshka1 = new Popelyshka('Katia',25,37);
+ let Popelyshka2 = new Popelyshka('Sveta',24,37);
+ let Popelyshka3 = new Popelyshka('Olya',20,35);
+ let Popelyshka4 = new Popelyshka('Anya',22,36);
+ let Popelyshka5 = new Popelyshka('Natalya',26,38);
+ let Popelyshka6 = new Popelyshka('Ira',40,38);
+ let Popelyshka7 = new Popelyshka('Angelina',22,37);
+ let Popelyshka8 = new Popelyshka('Nadya',43,40);
+ let Popelyshka9 = new Popelyshka('Solomia',33,39);
+ let Popelyshka10 = new Popelyshka('Tanya',28,39);
+
+ let Castle = [Popelyshka1,Popelyshka2,Popelyshka3,Popelyshka4,Popelyshka5,Popelyshka6,Popelyshka7,Popelyshka8,Popelyshka9,Popelyshka10];
+ class Prince {
+     constructor(prName,prAge,someShoe){
+        this.name = prName;
+        this.age = prAge;
+        this.shoesize = someShoe;  
+             };
+              find (findShoe) {
+                for (let shoe of findShoe) {
+
+                if (shoe.footsize === princ.shoesize) {
+                 console.log(`Принц ${princ.name} знайшов свою попелюшку ${shoe.name}`);
+};
+     };
+ };
+
+
+ };
+
+ let princ = new Prince('Alex',30,35);
+
+princ.find(Castle);
