@@ -274,12 +274,63 @@
 // console.log(all);
 
 // - *** приймає масив та число "i", та міняє місцями об`єкт який знаходиться в індексі "i" на "i+1"
+
+
+
+
 // - *** створити функцію яка буде переносити елементи з значенням 0 у кінець маисву. Зберігаючи при цьому порядок не нульових значень.
 // Двожина масиву від 2 до 100
 // Приклад
 // [1,0,6,0,3] => [1,6,3,0,0]
 // [0,1,2,3,4] => [1,2,3,4,0]
 // [0,0,1,0]   => [1,0,0,0]
+
+// let arr = [1,2,3,0,4,0,0,5,6,7,0];
+// let sortarr = [];
+// let newarr =[];
+
+// function sort(arrey,sorts) {
+//     for (let num of arrey) {
+//         if (num === 0) {
+//             sortarr.push(num); 
+//     }else {
+//         sortarr.unshift(num);
+//         };
+//     };
+//     for (let numb of sorts) {
+//         if (numb === 0) {
+//             newarr.push(numb);
+//         } else {
+//             newarr.unshift(numb); 
+//         }
+       
+//     }
+    
+// };
+
+// sort(arr,sortarr);
+// console.log(arr);
+// console.log(newarr);
+
+// let arr = [1,2,3,0,4,0,0,5,6,7,0];
+// let sortarr = [];
+
+// function sort(arrey) {
+//     for (let num of arrey) {
+//         if (num !== 0) {
+//             sortarr.push(num); 
+//     };
+//     };
+//     for (let num1 of arrey) {
+//         if (num1 === 0) {
+//             sortarr.push(num1)
+//         };
+//     };
+// };
+
+// sort(arr);
+// console.log(arr);
+// console.log(sortarr);
 
 // Створити функцію яка :
 // - Додає в боді блок з текстом "Hello owu"
@@ -472,4 +523,3 @@
 // 				},
 
 // 			];
-// "
