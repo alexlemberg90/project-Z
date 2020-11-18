@@ -173,19 +173,19 @@
 // кинути алерт з попередженням.
 // Перевірку робити при натисканні на кнопку
 
-// let badMas = ['js','html','css','java','piton'];
+// let badArr = ['js','html','css','java','piton'];
 // let text = document.forms.table.text;
 // let button = document.querySelector('.btn');
 
 // button.onclick = () =>{
-//     badMas.forEach(element => {
-//         if (text.value == element) {
+//     badArr.forEach(element => {
+//         if (text.value.toLoverCase == element) {
 //             alert('не матюкайся');
 //         }
 //     });
 // } 
 
-// // Є питання!! як зробити ловеркейс
+// Є питання!! як зробити ловеркейс
 
 // - Сворити масив не цензцрних слів.
 // Сворити інпут текстового типу.
@@ -193,17 +193,17 @@
 // Кинути алерт з попередженням у випадку якщо містить.
 // Перевірку робити при натисканні на кнопку
 
-let badMas = ['js','html','css','java','piton'];
-let text = document.forms.table.text;
-let button = document.querySelector('.btn');
+// let badArr = ['js','html','css','java','piton'];
+// let text = document.forms.table.text;
+// let button = document.querySelector('.btn');
 
-button.onclick = () =>{
-    badMas.forEach(element => {
-        if (text.value == element) {
-            alert('не матюкайся');
-        }
-    });
-} 
+// button.onclick = () =>{
+//     badArr.forEach(element => {
+//         if (text.value == element) {
+//             alert('не матюкайся');
+//         }
+//     });
+// } 
 
 // -- создать скрипт, который берет считывает на странице (rules.html) текст и делает сбоку меню-оглавление по всем заголовкам которые есть в тексте.
 // При клике на пункт оглавления вы должны отправляться к этому пункту в тексте
