@@ -210,6 +210,11 @@
 // -- создать скрипт, который берет считывает на странице (rules.html) текст и делает сбоку меню-оглавление по всем заголовкам которые есть в тексте.
 // При клике на пункт оглавления вы должны отправляться к этому пункту в тексте
 
+let h2 = document.getElementsByTagName('h2');
+let h1 = document.getElementsByTagName('h1');
+
+
+
 // -- взять массив пользователей
 // let usersWithAddress = [
 //                 {id:1,name: 'vasya', age: 31, status: false, address: {city: 'Lviv', street: 'Shevchenko', number: 16}},
