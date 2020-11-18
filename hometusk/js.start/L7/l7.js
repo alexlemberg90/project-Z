@@ -198,12 +198,14 @@
 // let button = document.querySelector('.btn');
 
 // button.onclick = () =>{
-//     badArr.forEach(element => {
-//         if (text.value == element) {
+    
+//     for (const element of badArr) {
+//             if (text.value.indexOf(element) >= 0) {
 //             alert('не матюкайся');
-//         }
-//     });
-// } 
+//         };
+//     };
+
+// }; 
 
 // -- создать скрипт, который берет считывает на странице (rules.html) текст и делает сбоку меню-оглавление по всем заголовкам которые есть в тексте.
 // При клике на пункт оглавления вы должны отправляться к этому пункту в тексте
