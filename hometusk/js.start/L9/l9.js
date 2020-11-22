@@ -23,10 +23,10 @@
 // повечеряв
 // ліг спати
 
-function wakeUp(alarm,up) {
+function wakeUp(alarm,cb) {
 setTimeout(() => {
     if (alarm) {
-       up();   
+       cb();   
      return    
     };
    console.error('Блін проспав!!!');
@@ -56,5 +56,8 @@ function eat(food) {
         }
         console.log('йомайо знов нема дошика');
     }, 500);
+};
+function d(params) {
+    
 }
 

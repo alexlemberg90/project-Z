@@ -173,17 +173,17 @@
 // кинути алерт з попередженням.
 // Перевірку робити при натисканні на кнопку
 
-// let badArr = ['js','html','css','java','piton'];
-// let text = document.forms.table.text;
-// let button = document.querySelector('.btn');
+let badArr = ['js','html','css','java','piton'];
+let text = document.forms.table.text;
+let button = document.querySelector('.btn');
 
-// button.onclick = () =>{
-//     badArr.forEach(element => {
-//         if (text.value.toLoverCase == element) {
-//             alert('не матюкайся');
-//         }
-//     });
-// } 
+button.onclick = () =>{
+    badArr.forEach(element => {
+        if (text.value == element) {
+            alert('не матюкайся');
+        }
+    });
+} 
 
 // Є питання!! як зробити ловеркейс
 
