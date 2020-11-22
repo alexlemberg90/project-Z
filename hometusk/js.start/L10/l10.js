@@ -14,10 +14,10 @@
 let text = 'Hello World';
 let div = document.createElement('div');
 document.body.appendChild(div);
+let random = Math.random()*(1000 - 100) +100;
 
 function print(add) {
-    return new Promise ((resolve) => {
-    let random = Math.random()*(1000 - 100) +100;
+    return new Promise ((resolve) => {  
          setTimeout(() => {
         resolve(div.innerText = add[0]);
              }, random); 
@@ -26,7 +26,6 @@ function print(add) {
 };
 function print1(add) {
     return new Promise ((resolve) => {
-    let random = Math.random()*(1000 - 100) +100;
          setTimeout(() => {
         resolve(div.innerText += add[1]);
              }, random); 
@@ -35,7 +34,6 @@ function print1(add) {
 };
 function print2(add) {
     return new Promise ((resolve) => {
-    let random = Math.random()*(1000 - 100) +100;
          setTimeout(() => {
         resolve(div.innerText += add[2]);
              }, random); 
@@ -44,7 +42,6 @@ function print2(add) {
 };
 function print3(add) {
     return new Promise ((resolve) => {
-    let random = Math.random()*(1000 - 100) +100;
          setTimeout(() => {
         resolve(div.innerText += add[3]);
              }, random); 
@@ -53,7 +50,6 @@ function print3(add) {
 };
 function print4(add) {
     return new Promise ((resolve) => {
-    let random = Math.random()*(1000 - 100) +100;
          setTimeout(() => {
         resolve(div.innerText += add[4]);
              }, random); 
@@ -62,7 +58,6 @@ function print4(add) {
 };
 function print5(add) {
     return new Promise ((resolve) => {
-    let random = Math.random()*(1000 - 100) +100;
          setTimeout(() => {
         resolve(div.innerText += add[5]);
              }, random); 
@@ -71,7 +66,6 @@ function print5(add) {
 };
 function print6(add) {
     return new Promise ((resolve) => {
-    let random = Math.random()*(1000 - 100) +100;
          setTimeout(() => {
         resolve(div.innerText += add[6]);
              }, random); 
@@ -80,7 +74,6 @@ function print6(add) {
 };
 function print7(add) {
     return new Promise ((resolve) => {
-    let random = Math.random()*(1000 - 100) +100;
          setTimeout(() => {
         resolve(div.innerText += add[7]);
              }, random); 
@@ -89,7 +82,6 @@ function print7(add) {
 };
 function print8(add) {
     return new Promise ((resolve) => {
-    let random = Math.random()*(1000 - 100) +100;
          setTimeout(() => {
         resolve(div.innerText += add[8]);
              }, random); 
@@ -98,7 +90,6 @@ function print8(add) {
 };
 function print9(add) {
     return new Promise ((resolve) => {
-    let random = Math.random()*(1000 - 100) +100;
          setTimeout(() => {
         resolve(div.innerText += add[9]);
              }, random); 
@@ -107,7 +98,6 @@ function print9(add) {
 };
 function print10(add) {
     return new Promise ((resolve) => {
-    let random = Math.random()*(1000 - 100) +100;
          setTimeout(() => {
         resolve(div.innerText += add[10]);
              }, random); 
